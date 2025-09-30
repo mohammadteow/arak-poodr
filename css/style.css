@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: "Yekanbakh";
-    src: url("/assets/fonts/YekanBakh-Medium.ttf") format("truetype");
+    src: url("assets/fonts/YekanBakh-Medium.ttf") format("truetype");
 }
 
 body {
