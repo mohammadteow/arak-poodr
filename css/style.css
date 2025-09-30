@@ -1,0 +1,522 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Yekanbakh", sans-serif;
+    transition: 0.5s all;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Yekanbakh";
+    src: url("/assets/fonts/YekanBakh-Medium.ttf") format("truetype");
+}
+
+body {
+    background-color: rgb(248, 247, 247);
+}
+
+/* navbar style */
+.nav-bar {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.055);
+    padding: 15px;
+}
+
+.nav-bar h1 {
+    color: green;
+    margin-right: 4rem;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+    font-weight: 100;
+}
+
+.nav-bar li {
+    cursor: pointer;
+}
+
+.nav-bar li:focus {
+    color: #008000;
+}
+
+.Banner-Section {
+    margin-top: 4rem;
+}
+
+.Header-Banner {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #f0f6f8;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.about-text {
+    padding: 0 30px;
+}
+
+.Header-Banner h1 {
+    font-size: 2.3rem;
+    color: green;
+    margin-bottom: 15px;
+}
+
+.Header-Banner img {
+    width: 450px;
+    border-radius: 20px;
+}
+
+.Header-Banner .Btn_group {
+    display: flex;
+    gap: 15px;
+    margin-top: 1rem;
+}
+
+.Banner-Btn {
+    color: #fff;
+    background-color: #008000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.Banner-Btn:hover {
+    background-color: #00b400;
+}
+
+/* Options Style */
+.Options-Section {
+    margin: 5rem 0 5rem 0;
+    text-align: center;
+}
+
+.Options-Section h3 {
+    color: #008000;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.Options {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.Option_item {
+    background-color: #ddffe2;
+    padding: 20px 60px;
+    border-radius: 20px;
+}
+
+.Options img {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.Options img:hover {
+    transform: scale(1.3);
+}
+
+/* Product Style */
+.Product-Section {
+    margin: 5rem 0 5rem 0;
+    text-align: center;
+}
+
+.Product-Section h3 {
+    color: #008000;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.Products {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Product-Item {
+    background-color: #ddffe2;
+    padding: 20px 20px 0 20px;
+    border-radius: 20px;
+}
+
+.Products img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+/* Scroll Top Top Style */
+.topScroll {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 25%;
+    opacity: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    outline: 1px #00b400 solid;
+    color: #003500;
+    font-size: 1.5rem;
+    outline-offset: 2px;
+}
+
+.topScroll:hover {
+    opacity: 100%;
+    box-shadow: 0 0 1rem #003500;
+    background-color: #003500;
+    color: white;
+}
+
+/* News Section Style */
+.News-Section {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.News-Section h4 {
+    color: #008000;
+    margin-bottom: 0.5rem;
+}
+
+.News-Section h2 {
+    margin-bottom: 0.5rem;
+}
+
+.News-Section p {
+    color: rgb(68, 68, 68);
+    margin-bottom: 0.5rem;
+}
+
+.News-Items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #ddffe2;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.News-Item {
+    width: 40%;
+    border-radius: 20px;
+    background-color: #f0f6f8;
+    /* padding: 20px; */
+    border: 1px gray solid;
+}
+
+.News-Item h3 {
+    color: #008000;
+}
+
+.News-Item span {
+    color: gray;
+    font-size: 0.7rem;
+}
+
+.News-Item p {
+    direction: rtl;
+    text-align: right;
+}
+
+.News-Item strong {
+    color: #008000;
+}
+
+.News-Item img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.about-News {
+    padding: 20px
+}
+
+.News-Section button {
+    margin: 1rem 0 1rem 0;
+}
+
+/* Images Section Style */
+
+.Img-Section {
+    width: 90%;
+    text-align: center;
+    margin: 6rem auto 0 auto;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imgs img {
+    width: 398px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+/* Comments Section Style */
+.Comments-Section {
+    width: 90%;
+    margin: 6rem auto 0 auto;
+}
+
+.Comments-card {
+    background-color: #ddffe2;
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Text-card {
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.Text-card h6 {
+    margin-bottom: 0.2rem;
+    font-size: 1.2rem;
+    color: #008000;
+}
+
+.Text-card h2 {
+    font-size: 2rem;
+    color: rgb(22, 22, 22);
+    margin-bottom: 0.2rem;
+}
+
+.Text-card p {
+    margin-bottom: 0.8rem;
+}
+
+.Member-Comment {
+    position: relative;
+    background-color: #fff;
+    width: 60%;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.Member-Comment {
+    text-align: center;
+}
+
+.Member-Comment img {
+    width: 120px;
+}
+
+.Member-Comment h5 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.Member-Comment p {
+    font-weight: 100;
+}
+
+.Member-Comment strong {
+    color: #008000;
+    font-weight: 100;
+}
+
+.Right-Arrow {
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%); */
+    right: 0;
+}
+
+.Member-Comment .Right-Arrow img {
+    width: 15px;
+}
+
+.Left-Arrow {
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%); */
+    left: 0;
+}
+
+.Member-Comment .Left-Arrow img {
+    width: 15px;
+}
+
+/* Form Section Style */
+.Form-Sec {
+    width: 90%;
+    margin: 6rem auto 0 auto;
+}
+
+.Form-card {
+    background-color: #ddffe2;
+    border-radius: 25px;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-Text {
+    margin-right: 1rem;
+}
+
+.form-Text h6 {
+    color: #008000;
+    margin-bottom: 0.2rem;
+    font-size: 1.2rem;
+}
+
+.form-Text h2 {
+    font-size: 2rem;
+    color: rgb(22, 22, 22);
+    margin-bottom: 0.2rem;
+}
+
+.location {
+    margin-top: 0.5rem;
+}
+
+.location img {
+    width: 12px;
+}
+
+.phone img {
+    width: 12px;
+}
+
+.form {
+    width: 60%;
+}
+
+.inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.area-group textarea {
+    padding: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.mt {
+    margin-top: 1rem;
+}
+
+/* footer style */
+.Footer-Sec {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.footer-Card {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.137);
+    padding: 15px;
+}
+
+.info-Text {
+    width: 30%;
+}
+
+.info-Text h2 {
+    color: #008000;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+
+.info-Text p {
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.foot-product strong {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.foot-product li {
+    list-style: none;
+    line-height: 2rem;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.521);
+}
+.obt-product strong{
+     font-size: 1.5rem;
+    font-weight: 300;
+}
+.obt-product li {
+    list-style: none;
+    line-height: 2rem;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.521);
+}
+.enemad strong{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.enemad span{
+    color: rgba(0, 0, 0, 0.521);
+
+}
