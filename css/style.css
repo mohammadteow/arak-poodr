@@ -18,6 +18,12 @@ body {
 }
 
 /* navbar style */
+.mob-nav{
+    display: none;
+}
+.mobileSection{
+    display: none;
+}
 .nav-bar {
     background-color: #fff;
     display: flex;
