@@ -486,11 +486,13 @@ body {
 
 .footer-Links {
     display: flex;
-    gap: 5rem;
+    gap: 15rem;
+    margin-top: 2rem;
 }
 
 .info-Text {
     width: 30%;
+     margin-top: 2rem;
 }
 
 .info-Text h2 {
