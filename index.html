@@ -12,9 +12,27 @@
 <body dir="rtl">
 
     <!-- Header Design -->
-    <header id="header">
+   <header id="header">
         <nav class="nav-bar">
             <h1>اراک پودر</h1>
+            <!-- Mobile Nav -->
+            <section class="mob-nav">
+                <a href="#mobileSection">
+                    <img class="mob-nav-img" src="assets/images/burger-bar.png" alt="">
+                </a>
+            </section>
+            <!-- Mobile Menu -->
+            <div id="mobileSection" class="mobileSection">
+                <!-- Close Btn -->
+                <a href="#header" class="close-btn">✖</a>
+                
+                <a href="#">خانه</a>
+                <a href="#">محصولات</a>
+                <a href="#">مقالات</a>
+                <a href="#">درباره ما</a>
+                <a href="#">تماس با ما</a>
+          
+            </div>
             <ul class="menu">
                 <li tabindex="1">خانه</li>
                 <li tabindex="1">محصولات</li>
@@ -25,6 +43,9 @@
         </nav>
         <section class="Banner-Section">
             <div class="Header-Banner">
+                <div class="about-image">
+                    <img src="assets/images/industry.jpg" alt="">
+                </div>
                 <div class="about-text">
                     <h1>ما که هستیم؟</h1>
                     <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
@@ -34,10 +55,8 @@
                     <div class="Btn_group">
                         <button class="Banner-Btn">بیشتر بدانید</button>
                         <button class="Banner-Btn">تماس با ما </button>
+
                     </div>
-                </div>
-                <div class="about-image">
-                    <img src="assets/images/industry.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -215,45 +234,47 @@
     </main>
 
     <!-- footer section -->
-    <footer class="Footer-Sec">
+   <footer class="Footer-Sec">
         <div class="footer-Card">
             <div class="info-Text">
-                <h2>اراک پودر</h2>
+                <h2>نام شرکت</h2>
                 <p> این یک نوشته آزمایشی است که به طراحان و برنامه نویسان کمک میکند تا این عزیزان با بهره گیری از این
                     نوشته تستی و آزمایشی بتوانند نمونه تکمیل شده از پروژه و طرح خودشان را به کارفرما نمایش دهند، استفاده
                     از این متن تستی می تواند سرعت پیشرفت پروژه را افزایش دهد.
                 </p>
             </div>
-            <div class="foot-product">
-                <strong>محصولات</strong>
-                <ul>
-                    <li>آجر</li>
-                    <li>سیمان</li>
-                    <li>پودر سنگ</li>
-                    <li>نما رومی</li>
-                </ul>
-            </div>
-            <div class="obt-product">
-                <strong>خدمات دیگر</strong>
-                <ul>
-                    <li>تولید محتوا</li>
-                    <li>طراحی سایت در تهران</li>
-                    <li>طراحی سایت شرکتی</li>
-                    <li>سئو محتوا</li>
-                    <li>موشن گرافیک</li>
-                </ul>
-            </div>
-            <div class="enemad">
-                <strong>راه های ارتباطی</strong>
-                <div class="location">
-                    <img src="assets/images/pin.png" alt="">
-                    <span>اراک، هپکو</span>
+            <div class="footer-Links">
+                <div class="foot-product">
+                    <strong>محصولات</strong>
+                    <ul>
+                        <li>آجر</li>
+                        <li>سیمان</li>
+                        <li>پودر سنگ</li>
+                        <li>نما رومی</li>
+                    </ul>
                 </div>
-                <div class="phone">
-                    <img src="assets/images/phone-call.png" alt="">
-                    <span>09123456789</span>
+                <div class="obt-product">
+                    <strong>خدمات دیگر</strong>
+                    <ul>
+                        <li>تولید محتوا</li>
+                        <li>طراحی سایت در تهران</li>
+                        <li>طراحی سایت شرکتی</li>
+                        <li>سئو محتوا</li>
+                        <li>موشن گرافیک</li>
+                    </ul>
                 </div>
-                <img src="assets/images/enemad.png" alt="">
+                <div class="enemad">
+                    <strong>راه های ارتباطی</strong>
+                    <div class="location">
+                        <img src="assets/images/pin.png" alt="">
+                        <span>اراک، هپکو</span>
+                    </div>
+                    <div class="phone">
+                        <img src="assets/images/phone-call.png" alt="">
+                        <span>09123456789</span>
+                    </div>
+                    <img src="assets/images/enemad.png" alt="">
+                </div>
             </div>
         </div>
     </footer>
